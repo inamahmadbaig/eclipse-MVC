@@ -1,0 +1,8 @@
+Task 1: Welcome Message
+Objective: Create a Spring Boot MVC application that displays a welcome message on a JSP page.
+Requirements:- Create a Spring Boot MVC project.- Configure JSP.- Create one controller.- Create one JSP page.- Access URL: http://localhost:8080/
+Output:
+Welcome to Spring Boot MVC
+Expected Files:
+HomeController.java
+index.jsp
