@@ -1,0 +1,10 @@
+Task 2: Student Welcome
+Objective: Pass a message from the controller to the JSP page using Model.
+Requirements:
+Create URL: http://localhost:8080/student
+Controller should send: Welcome Student
+JSP should print: Welcome Student
+Use only model.addAttribute() and ${message}.
+No JSTL tags.
+Output:
+Welcome Student
