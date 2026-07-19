@@ -1,0 +1,27 @@
+Task 3: Employee Greeting
+Objective: Pass multiple values from the controller to the JSP.
+Requirements:
+Create URL: http://localhost:8080/employee
+Controller should send:
+Employee Name
+Department
+Salary
+Example:
+Employee Name : Rahul
+Department : IT
+Salary : 50000
+Expected Output:
+Employee Details
+Employee Name : Rahul
+Department : IT
+Salary : 50000
+Use:
+model.addAttribute("name","Rahul");
+model.addAttribute("department","IT");
+model.addAttribute("salary",50000);
+Display using:
+${name}
+${department}
+${salary}
+No JSTL.
+What You Will Learn- Creating a Spring Boot MVC project- Configuring JSP as the view technology- Creating controllers with @Controller- Mapping URLs using @GetMapping- Returning JSP view names- Passing data from the controller to the JSP using Model- Displaying model attributes using JSP Expression Language (${...})- Basic MVC request flow: Browser fi Controller fi Model fi JSP fi Browse
