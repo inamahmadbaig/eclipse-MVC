@@ -1,0 +1,30 @@
+Spring Boot MVC - Day 3 Tasks (Model & Map)
+Topic
+Passing Hardcoded Data from Controller to JSP
+Rules
+Use Spring Boot MVC.
+Use JSP only.
+Do not use JSTL.
+Add hardcoded data in the controller.
+Display data using Expression Language (EL) (${...}).
+Task 1: Using Model (Single Student Details)
+Objective: Pass hardcoded student details from the controller to the JSP using Model.
+URL: http://localhost:8080/student
+Controller Data:
+Student Name : Rahul
+Course : Java Full Stack
+City : Hyderabad
+Use:
+model.addAttribute("name","Rahul");
+model.addAttribute("course","Java Full Stack");
+model.addAttribute("city","Hyderabad");
+JSP Output:
+Student Details
+Student Name : Rahul
+Course : Java Full Stack
+City : Hyderabad
+Display using:
+${name}
+${course}
+${city}
+No JSTL
