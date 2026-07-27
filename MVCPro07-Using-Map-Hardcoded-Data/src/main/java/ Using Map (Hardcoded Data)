@@ -1,0 +1,36 @@
+Task 3: Using Map (Hardcoded Data)
+Objective: Store hardcoded data in a Map and send it to the JSP.
+URL: http://localhost:8080/product
+Map Data:
+Product ID : 1001
+Product Name : Laptop
+Brand : Dell
+Price : 65000
+
+Use:
+Map<String,Object> map=new HashMap<>();
+map.put("id",1001);
+map.put("name","Laptop");
+map.put("brand","Dell");
+map.put("price",65000);
+model.addAllAttributes(map);
+JSP Output:
+Product Details
+Product ID : 1001
+Product Name : Laptop
+Brand : Dell
+Price : 65000
+Display using:
+${id}
+${name}
+${brand}
+${price}
+No JSTL.
+What You Will Learn
+Creating multiple controller methods.
+Passing hardcoded data using Model.
+Using model.addAttribute().
+Creating and using Map<String,Object>.
+Passing all map values using model.addAllAttributes().
+Displaying data using JSP EL (${...}).
+MVC Flow: Browser fi Controller fi Model/Map fi JSP fi Browser
