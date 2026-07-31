@@ -1,0 +1,6 @@
+Task 2: Electricity Bill Calculator (@RequestParam)
+Objective: Calculate the electricity bill based on the number of units entered.
+Inputs:- Customer Name- Units Consumed
+Formula:
+Bill Amount = Units × ₹8
+Requirements:- Create bill.jsp with an HTML form.- Use @RequestParam to receive the values.- Calculate the total bill in the controller.- Display Customer Name, Units, and Total Bill.- Show the result in billResult.jsp.

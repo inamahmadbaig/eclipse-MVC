@@ -1,0 +1,39 @@
+Spring Boot MVC - Internationalization (i18n)
+Practice Tasks
+TASK 1: Employee Welcome Page (Internationalization)
+Scenario
+Create a Spring Boot MVC application that displays employee details. The page should
+support English and Hindi languages using Spring Message Resource Bundles.
+Requirements
+1. Create EmployeeController
+Request Mapping: GET /employee
+Add Model Data:
+Employee Name : Rahul Sharma
+Department : IT
+Return: employee.jsp
+2. Create employee.jsp
+Display labels using Spring Message:
+Employee Details
+Employee Name
+Department
+Welcome
+Display model values.
+Example Output:
+Employee Details
+Employee Name : Rahul Sharma
+Department : IT
+Welcome to Spring Boot MVC
+3. Create Message Files
+messages.properties
+title=Employee Details
+name=Employee Name
+department=Department
+welcome=Welcome to Spring Boot MVC
+messages_hi.properties
+title= 
+name=  
+department=
+welcome=  MVC    
+Expected URLs:
+http://localhost:8080/employee?lang=en
+http://localhost:8080/employee?lang=hi
